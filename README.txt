@@ -1,9 +1,10 @@
 Directory structure
 ===================
-backend: Contains Python FastAPI backend code
-db: contains the dump of the database. you need to import this into your MySQL db by using MySQL workbench tool
-dialogflow_assets: this has training phrases etc. for our intents
 frontend: website code
+backend: Contains Python FastAPI backend code
+database: contains the dump of the database. you need to import this into your MySQL db by using MySQL workbench tool
+CADY_zip_file: you can import this zip file in your Dialogflow agent. It contains the intents, contexts and entities of the model
+
 
 Install these modules
 ======================
